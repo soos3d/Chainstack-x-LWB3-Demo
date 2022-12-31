@@ -114,7 +114,9 @@ forge remappings > remappings.txt
 
 Add this line to the remappings file-
 
-> openzeppelin/=lib/openzeppelin-contracts/contracts/
+```sh
+openzeppelin/=lib/openzeppelin-contracts/contracts/
+```
 
 This does two things for us.
 1. We create a new remapping named *openzeppelin* that points forge to our contracts library.
